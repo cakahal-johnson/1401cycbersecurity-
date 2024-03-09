@@ -1,0 +1,99 @@
+# 1.
+ What is the PyCharm shortcut key for commenting selected lines of code?
+
+# Answer 1.
+For Windows/Linux: Ctrl + /
+For macOS: Cmd + /
+
+# 2.
+What is the single most important design principle for designing functions?
+
+# Answer 2.
+One of the single most important design principles for designing functions is the Single Responsibility Principle (SRP).
+ This principle introduced by Robert C. Martin, states that a function (or a method)
+ should have only one reason to change, meaning it should have only one responsibility or do one thing.
+
+When a function adheres to the Single Responsibility Principle it becomes more modular maintainable and easier to
+understand. It simplifies the code reduces the chances of introducing bugs when modifications are made and enhances code
+readability. Following SRP helps create a more flexible and scalable codebase by ensuring that each function is focused
+on a specific task or responsibility.
+
+# 3.
+What is the Python keyword for returning a value from a function?
+
+# Answer 3.
+
+In Python the keyword used to return a value from a function is return. When a return statement is executed in a
+function it immediately exits the function and passes the specified value back to the caller
+
+# 4.
+What are arguments and parameters? What is the difference between them?
+
+# Answer 4.
+Parameters:
+Parameters are the variables listed in the function or method signature.
+
+They act as placeholders for the actual values (arguments) that will be passed to the function when it is called.
+
+Parameters are part of the function definition and are used to specify the input requirements of the function.
+
+Arguments:
+
+Arguments are the actual values that are passed to a function when it is called.
+
+They correspond to the parameters of the function and provide the actual data that the function will operate on.
+
+The number and order of arguments must match the parameters defined in the function.
+
+# 5.
+What is the Python function call for generating a random number between 1 and 100?
+
+# Answer 5.
+
+In Python, you can use the random module to generate a random number.
+Specifically, the randint() function from the random module can be used to generate a random integer within a
+specified range.
+eg:
+import random
+
+random_number = random.randint(1, 100)
+print(random_number)
+
+# 6.
+Name 4 functions we've used in the subject so far (functions we've "called").
+
+# Answer 6.
+a. print(): Used to print output to the console.
+b. len(): Used to get the length (number of items) of an object, such as a string, list, or tuple.
+c. input(): Used to take user input from the console.
+d. random.randint(): Used to generate a random integer within a specified range.
+
+# 7.
+How many grams of freshly-ground specialty coffee did Lindsay make his coffee with in the lecture video?
+
+Answer 7:
+
+# ==================================== GOOD NAMES =======================================================
+
+# GOOD NAMES
+1. Determine a subject grade based on a given total score:
+   determine_subject_grade
+
+
+2. Convert currency from USD to AUD:
+   convert_usd_to_aud
+
+
+3. Print a report:
+   print_report
+
+
+4. Calculate the average of a list of numbers:
+   calculate_average
+
+5. Determine if a number is even:
+   is_even
+
+
+6. Get a user's salary, making sure that it is not negative:
+   get_non_negative_salary

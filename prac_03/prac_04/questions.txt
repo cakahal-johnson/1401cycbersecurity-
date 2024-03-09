@@ -1,0 +1,101 @@
+# Quick Questions
+
+1. What is the PyCharm keyboard shortcut for commenting (out/in) a selection of code?
+    Ctrl / (for windows) Command / (for MAC)
+
+2. What are the two kinds of loops available in Python?
+    Definite = (for Loop)
+    Indefinite = (while Loop)
+
+3. What is a "sentinel" (when dealing with loops)?
+    A "sentinel" is a special value used to signal the end of input or the termination condition for a loop.
+    It helps control the flow of the loop, indicating when the loop should stop executing.
+    The sentinel value is typically chosen to be distinct from regular input values and is recognized by the program
+     as a signal to exit the loop.
+    Sentinels can be specific values, like -1 or "" (the empty string), or they can be a range, like < 0
+    Sentinels can NOT be normal or valid data
+
+4. What is wrong with this variable name: nothingWrong
+    there is nothing wrong with the variable name "nothingWrong" in Python; it adheres to the language's naming
+     conventions and is descriptive.
+     It's important to choose meaningful and clear names for variables to enhance code readability and maintainability.
+     whereas;
+    It violates the PEP 8 naming convention by having a capital (instead of nothing_wrong)
+
+5. What are augmented assignment operators?
+    a *= b # Equivalent to  a * b  that is Multiplication Assignment
+    x += 5  # Equivalent to x = x + 5 that is Additional Assignment
+    y -= 3  # Equivalent to y = y - 3 that is Subtraction Assignment
+    e /= 4  # Equivalent to e = e / 4 that is Division Assignment
+    b //= 3  # Equivalent to b = b // 3 that is Floor Division Assignment
+    c %= 7  # Equivalent to c = c % 7 that is Modulus Assignment
+    d **= 2  # Equivalent to d = d ** 2 that is Expnentiation Assignment
+    flags &= 0b1010  # Equivalent to flags = flags & 0b1010 that is Bitwise AND Assignment
+    permissions |= 0o777  # Equivalent to permissions = permissions | 0o777 that is Bitwise OR Assignment
+    bitmask ^= 0xFF  # Equivalent to bitmask = bitmask ^ 0xFF that is Bitwise XOR Assignment
+
+
+
+range
+a) Loop Outputs
+33 34 35 36 37 38
+17 16 15 14 13 12
+1 0 1 0 1 0 1 0 1 0
+100>64>36>16>4>
+
+b) Range Values
+[0, 1, 2, 3, 4, 5]
+    range(6)
+[1, 5, 9, 13]
+    range(1, 14, 4)
+[3, 2, 1]
+    range(3, 0, -1)
+[7, 4, 1, -2, -5]
+    range(7, -6, -3)
+
+
+Patterns
+Which pattern would be the most appropriate choice for each of the following situations:
+
+1. Error-checking user input, looping until they enter a valid response
+    indefinite
+2. A menu with several options including 'quit'
+    indefinite
+3. Displaying all the months in a year
+    definite
+4. Printing 5 random numbers
+    definite
+5. Printing n random numbers, where n is a user input
+    definite
+
+Logic Exercise
+# Initialize the boxes with their incorrect labels
+box1 = {'label': 'Box2', 'marbles': ['black', 'black']}
+box2 = {'label': 'Box3', 'marbles': ['white', 'white']}
+box3 = {'label': 'Box1', 'marbles': ['black', 'white']}
+
+# Function to check if the label matches the contents
+def is_label_correct(label, contents):
+    return label.lower() == contents[0][:1].lower() and label[-1] == contents[1][:1].lower()
+
+# Function to find the correct label for a given box
+def find_correct_label(box):
+    labels = ['Box1', 'Box2', 'Box3']
+    for label in labels:
+        if is_label_correct(label, box['marbles']):
+            return label
+
+# Function to determine the correct contents of all three boxes
+def determine_contents():
+    # Find the correct labels for each box
+    correct_label_box1 = find_correct_label(box1)
+    correct_label_box2 = find_correct_label(box2)
+    correct_label_box3 = find_correct_label(box3)
+
+    # Print the correct labels and contents
+    print(f"Correct label for Box 1: {correct_label_box1}")
+    print(f"Correct label for Box 2: {correct_label_box2}")
+    print(f"Correct label for Box 3: {correct_label_box3}")
+
+# Determine the contents
+determine_contents()

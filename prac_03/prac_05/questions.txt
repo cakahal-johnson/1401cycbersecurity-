@@ -1,0 +1,47 @@
+# question 1
+# What do you do that leads to your best learning in this subject?
+
+# Answers:
+
+To succeed in Python pseudocode practicals.
+practice regularly, debug effectively, read documentation discuss with peers review others code and break down complex
+problems into manageable parts.
+
+ 1. Understand the problem thoroughly, break it down.
+ 2. Plan and pseudocode your approach for clear logic.
+ 3. Use meaningful variable names for readability.
+ 4. Build incrementally, test each part as you go.
+ 5. Implement error handling for robust code.
+ 6. Add comments and documentation for clarity.
+ 7. Test rigorously with various inputs and debug.
+ 8. Practice regularly to reinforce concepts.
+ 9. Review and learn from mistakes as opportunities.
+ 10. Stay updated on Python features and best practices.
+
+# question 2
+How are you going with getting the most out of the teaching in this subject (lecture videos, seminars, etc.)
+in order to have the best learning experience?
+
+# Answer
+To optimize my learning experience in this subject I actively engage in lectures and seminars
+prepare thoroughly beforehand and use diverse resources.
+Effective note-taking, regular reviews, and active participation in discussions contribute to a deeper understanding.
+Setting clear goals managing time efficiently and seeking feedback from instructors or peers are essential strategies
+for continuous improvement.
+Additionally applying theoretical knowledge through practical exercises and real-world examples enhances retention
+and reinforces learning.
+
+# question 3
+What percentage of the lecture videos have you watched?
+
+# Answer
+95%
+
+
+# question 4
+What is one thing that you will change to more consistently do your best learning?
+
+# Answer
+To enhance my learning consistency.
+I will establish a structured study routine, allocating dedicated time each day to engage with the subject matter and
+practice regularly.
